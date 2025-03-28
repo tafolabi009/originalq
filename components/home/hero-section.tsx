@@ -56,16 +56,16 @@ export function HeroSection() {
       </div>
 
       {/* Teacher Image */}
-      <div className="relative mt-8 max-w-7xl mx-auto">
+      <div className="relative max-w-7xl mx-auto" style={{ marginBottom: "-40px" }}>
         <div className="flex justify-center">
-          <div className="relative w-full max-w-2xl h-[400px]">
+          <div className="relative w-full max-w-2xl h-[500px]">
             <Image src="/images/teacher-with-laptop.png" alt="Quran Teacher" fill className="object-contain" priority />
           </div>
         </div>
       </div>
 
       {/* Features section */}
-      <div className="mt-16 bg-[#0D6A61] rounded-3xl py-8 px-4 md:px-10 max-w-6xl mx-auto relative z-10">
+      <div className="bg-[#0D6A61] rounded-3xl py-8 px-4 md:px-10 max-w-6xl mx-auto relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-white">
           <div className="flex items-start gap-4 md:border-r md:border-white/20 px-4">
             <div className="bg-white/10 p-3 rounded-full">
