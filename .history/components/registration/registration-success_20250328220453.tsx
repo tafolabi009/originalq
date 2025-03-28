@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import { AlertTriangle } from "lucide-react";
-import { JSX } from "react/jsx-runtime";
 
 export function RegistrationSuccess(): JSX.Element {
   return (

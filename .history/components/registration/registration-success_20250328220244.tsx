@@ -1,14 +1,14 @@
-"use client";
-import Link from "next/link";
-import { AlertTriangle } from "lucide-react";
-import { JSX } from "react/jsx-runtime";
+"use client"
+import Link from "next/link"
+import { AlertTriangle } from "lucide-react"
 
-export function RegistrationSuccess(): JSX.Element {
+export function RegistrationSuccess({ }) {
   return (
     <div className="text-center space-y-6">
       <div className="flex justify-center">
         <div className="bg-teal-100 rounded-full p-6">
           <svg className="h-16 w-16 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
           </svg>
         </div>
@@ -56,3 +56,4 @@ export function RegistrationSuccess(): JSX.Element {
     </div>
   );
 }
+
